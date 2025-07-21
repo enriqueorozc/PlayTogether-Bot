@@ -26,8 +26,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Follow this guide to create and configure your bot:
+4. Follow this guide to create and configure your bot:\
 Creating a Bot Account: https://discordpy.readthedocs.io/en/stable/discord.html
+
+5. Set up your Steam Web API key:\
+Obtain a Steam Web API Key [here,](https://steamcommunity.com/dev) and paste it into the **API_KEY** variable inside steam.py as a string.
 
 ## Add PlayTogether
 If you'd like to add the PlayTogether bot to your server, [click here.](https://discord.com/oauth2/authorize?client_id=1288990665111375985&permissions=67584&integration_type=0&scope=bot)
@@ -46,13 +49,13 @@ To get a random multiplayer game, use the **/game** command. It requires a minim
 
 ## FAQ
 
-1. Does my Steam profile need to be public?
+1. Does my Steam profile need to be public?\
 Yes, your Steam profile must be set to public in order for the PlayTogether bot to access your game library.
 
-2. Why does the **/game** command take so long?
+2. Why does the **/game** command take so long?\
 The command may take a bit longer the first time it’s used with new users. This is because while searching for commonly owned multiplayer games it's issuing multiple requests to the Steam Web API to get information about each game. To reduce this time for each subsequent runs, the bot stores each game after it's request.
 
-3. Are my hidden games included?
+3. Are my hidden games included?\
 No, hidden games are not included because that information isn’t publicly available. The PlayTogether bot only uses public information from your Steam account.
 
 ## Support
