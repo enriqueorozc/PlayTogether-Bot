@@ -42,21 +42,25 @@ PlayTogether works by saving the list of games owned by each user's public Steam
 
 To get started a user must run the **/add_id** command and provide their public Steam profile URL. Once verified, their owned games will be stored into the database. If the user purchases new games later, they can use the **/refresh** command to update their library.
 
-![add_id demo](media/addDemo.gif)
+<p align="center">
+  <img src="media/addDemo.gif" width="70%" height="40%"/>
+</p>
 
 To get a random multiplayer game, use the **/game** command. It requires a minimum of two, and supports up to ten, non-bot Discord users from the same server. All the selected users must have previously added their Steam profile by using the **/add_id** command.
 
-![game demo](media/gameDemo.gif)
+<p align="center">
+  <img src="media/gameDemo.gif" width="70%"/>
+</p>
 
 ## FAQ
 
-1. Does my Steam profile need to be public?
+1. Does my Steam profile need to be public?\
 Yes, your Steam profile must be set to public in order for the PlayTogether bot to access your game library.
 
-2. Why does the **/game** command take so long?
+2. Why does the **/game** command take so long?\
 The command may take a bit longer the first time it’s used with new users. This is because while searching for commonly owned multiplayer games it's issuing multiple requests to the Steam Web API to get information about each game. To reduce this time for each subsequent runs, the bot stores each game after it's request.
 
-3. Are my hidden games included?
+3. Are my hidden games included?\
 No, hidden games are not included because that information isn’t publicly available. The PlayTogether bot only uses public information from your Steam account.
 
 ## Support
