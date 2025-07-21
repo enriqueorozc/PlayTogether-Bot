@@ -42,7 +42,11 @@ PlayTogether works by saving the list of games owned by each user's public Steam
 
 To get started a user must run the **/add_id** command and provide their public Steam profile URL. Once verified, their owned games will be stored into the database. If the user purchases new games later, they can use the **/refresh** command to update their library.
 
+![add_id demo](media/addDemo.gif)
+
 To get a random multiplayer game, use the **/game** command. It requires a minimum of two, and supports up to ten, non-bot Discord users from the same server. All the selected users must have previously added their Steam profile by using the **/add_id** command.
+
+![game demo](media/gameDemo.gif)
 
 ## FAQ
 
