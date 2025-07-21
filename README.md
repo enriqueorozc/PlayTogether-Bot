@@ -67,5 +67,4 @@ The command may take a bit longer the first time it’s used with new users. Thi
 No, hidden games are not included because that information isn’t publicly available. The PlayTogether bot only uses public information from your Steam account.
 
 ## Support
-If there are any issues or if you have any suggestions for the PlayTogether bot, please let me know. You can reach me at:\
-enrique-orozco@outlook.com
+If there are any issues or if you have any suggestions for the PlayTogether bot, please let me know. You can reach me at: enrique-orozco@outlook.com
